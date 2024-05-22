@@ -154,6 +154,32 @@
     -webkit-backdrop-filter: blur(5px);
 }
 
+.password-field{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.password-field button{
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.password-field button i{
+    font-size: 18px;
+    color: #1d1155;
+}
+.password-field button i:hover{
+    color: #7600C3;
+}
+
 
 @media only screen and (max-width: 810px) {
     .form-area{
